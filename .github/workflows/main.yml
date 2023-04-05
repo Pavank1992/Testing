@@ -7,7 +7,7 @@ on :
     branches : [main]
 jobs:
   ci:
-    job_run: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: bazelbuild/setup-bazelisk@v2
